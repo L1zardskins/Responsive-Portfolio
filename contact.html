@@ -25,15 +25,26 @@
     <div class=container>
 
         <section id="main-bio">
+            <h1>Contact</h1>
 
-            <h2>About me</h2>
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea type="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit" name="submit">
+            </form>
 
-            <img id="bio-image" src="assets/images/BioPic.png" alt="Riley Barlow">
-
-            <p>Riley Barlow is a creator, builder, and family man. When he is not making time for his family he is always thinking of new ways to solve old problems. Automation and data storage has always been his most enjoyable topics. Being a self tought database administrator in MSSQL and FileMaker he has learned the way of Google-Fu with quite a bit of experiance in asking all the "dumb" questions!</p>
-                
-            <p>Riley loves to participate in any outdoor sport labeld "Extreme" and has a deep interest for anything with wheels on it. Riley is always ready to learn and listen to others solutions to common issues.</p>
-            
         </section>
 
         <!-- <section id="contact-info">
@@ -46,13 +57,10 @@
         </section> -->
 
       </div>
-    <div class="break">
-
-    </div>
     <footer>
-        <div class="footer">
-            <p>Copywright &copy;</p>
-        </div>
+      <div class="footer">
+              <p>Copywright &copy;</p>
+      </div>
     </footer>
 </body>
 </html>
