@@ -231,3 +231,53 @@ input[type=submit]{
  .break{
      margin: 0 auto;
  } */
+
+
+ @media screen and (max-width: 960px) {
+    body {
+      background-color: #333;
+    }
+  
+    .container {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    .bio-header{
+        width: 100%;
+    }
+  }
+  
+  /* Additional Screen Sizes */
+  
+  /* Width at 320px and below */
+  @media screen and (max-width: 320px) {
+    body {
+      background-color: #333;
+    }
+  
+    .container {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    .bio-header{
+        width: 100%;
+    }
+  }
+  
+  /* Width at 168px and below */
+  @media screen and (max-width: 168px) {
+    body {
+      background-color: #333;
+    }
+  
+    .container {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+    .bio-header{
+        width: 100%;
+    }
+  }
