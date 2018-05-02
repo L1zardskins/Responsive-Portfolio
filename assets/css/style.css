@@ -251,7 +251,7 @@ input[type=submit]{
   /* Additional Screen Sizes */
   
   /* Width at 320px and below */
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 768px) {
     body {
       background-color: #333;
     }
@@ -267,7 +267,7 @@ input[type=submit]{
   }
   
   /* Width at 168px and below */
-  @media screen and (max-width: 168px) {
+  @media screen and (max-width: 640px) {
     body {
       background-color: #333;
     }
